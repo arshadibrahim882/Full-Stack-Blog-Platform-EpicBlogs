@@ -11,7 +11,7 @@ connectDB();
 const app = express();
 
 app.use(cors({
-  origin: "https://your-frontend-url.vercel.app",
+  origin: "https://epicblogs-frontend.vercel.app/",
   credentials: true
 }));
 app.use(express.json());
@@ -26,5 +26,5 @@ app.get("/", (req, res) => {
 });
 
 app.listen(process.env.PORT, () =>
-  console.log(`🚀 Server running on port http://localhost:${process.env.PORT}`)
+  console.log(`🚀 Server running on port ${process.env.PORT}`)
 );
