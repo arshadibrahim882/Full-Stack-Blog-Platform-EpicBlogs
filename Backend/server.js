@@ -12,7 +12,7 @@ const app = express();
 
 app.use(express.json());
 app.use(cors({
-  origin: "https://epicblogs-frontend.vercel.app/",
+  origin: "https://epicblogs-frontend.vercel.app",
   credentials: true
 }));
 app.use(fileUpload({ useTempFiles: true }));
@@ -25,6 +25,8 @@ app.get("/", (req, res) => {
   res.send("API Running...");
 });
 
-app.listen(process.env.PORT, () =>
-  console.log(`🚀 Server running on port ${process.env.PORT}`)
+const PORT = process.env.PORT || 5000;
+
+app.listen(PORT, () =>
+  console.log(`🚀 Server running on port ${PORT}`)
 );
