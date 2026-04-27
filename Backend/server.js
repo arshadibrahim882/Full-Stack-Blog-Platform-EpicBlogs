@@ -10,11 +10,11 @@ connectDB();
 
 const app = express();
 
+app.use(express.json());
 app.use(cors({
   origin: "https://epicblogs-frontend.vercel.app/",
   credentials: true
 }));
-app.use(express.json());
 app.use(fileUpload({ useTempFiles: true }));
 
 app.use("/api/auth", require("./routes/authRoutes"));
