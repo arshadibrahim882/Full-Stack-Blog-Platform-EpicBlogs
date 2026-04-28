@@ -170,6 +170,7 @@ Create .env.production:
 
 VITE_API_URL=https://backend-url.onrender.com/api
 
+
 Then deploy using Vercel:
 
 Framework: Vite
@@ -189,9 +190,9 @@ Output: dist
 
 - Auth
 
-POST /api/auth/signup
+    POST /api/auth/signup
 
-POST /api/auth/login
+    POST /api/auth/login
 
 
 - Blogs
