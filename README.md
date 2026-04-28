@@ -168,7 +168,7 @@ node server.js
 
 Create .env.production:
 
-VITE_API_URL=https://epicblogs-bckend.onrender.com/api
+VITE_API_URL=https://backend-url.onrender.com/api
 
 Then deploy using Vercel:
 
