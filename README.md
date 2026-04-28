@@ -190,31 +190,31 @@ Output: dist
 
 - Auth
 
-    POST /api/auth/signup
+      POST /api/auth/signup
 
-    POST /api/auth/login
+      POST /api/auth/login
 
 
 - Blogs
 
-GET /api/blogs
+      GET /api/blogs
 
-POST /api/blogs
+      POST /api/blogs
 
-PUT /api/blogs/:id
+      PUT /api/blogs/:id
 
-DELETE /api/blogs/:id
+      DELETE /api/blogs/:id
 
-PUT /api/blogs/like/:id
+      PUT /api/blogs/like/:id
 
-POST /api/blogs/comment/:id
+      POST /api/blogs/comment/:id
 
 
 - Users
 
-GET /api/users/profile
+      GET /api/users/profile
 
-PUT /api/users/profile
+      PUT /api/users/profile
 
 
 ---
