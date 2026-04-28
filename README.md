@@ -119,7 +119,9 @@ npm install
 Create .env file:
 
 PORT=5000
+
 MONGO_URI=your_mongodb_connection_string
+
 JWT_SECRET=your_secret_key
 
 Run backend:
@@ -127,7 +129,6 @@ Run backend:
 ```bash
 node server.js
 ```
-
 
 > By default, Backend runs on: [http://localhost:5000](http://localhost:5000)
 
@@ -149,9 +150,13 @@ npm run dev
 
 Deploy backend folder on Render
 
+
 Add environment variables:
+
 MONGO_URI
+
 JWT_SECRET
+
 
 Set start command:
 ```bash
@@ -168,7 +173,9 @@ VITE_API_URL=https://epicblogs-bckend.onrender.com/api
 Then deploy using Vercel:
 
 Framework: Vite
+
 Build Command: npm run build
+
 Output: dist
 
 
@@ -181,19 +188,31 @@ Output: dist
 ### 📡 API Endpoints
 
 - Auth
+
 POST /api/auth/signup
+
 POST /api/auth/login
 
+
 - Blogs
+
 GET /api/blogs
+
 POST /api/blogs
+
 PUT /api/blogs/:id
+
 DELETE /api/blogs/:id
+
 PUT /api/blogs/like/:id
+
 POST /api/blogs/comment/:id
 
+
 - Users
+
 GET /api/users/profile
+
 PUT /api/users/profile
 
 
@@ -202,11 +221,11 @@ PUT /api/users/profile
 
 ## 💡 Future Improvements
 
-### 📌 Bookmark blogs
-### 📊 Blog analytics (views, trends)
-### 🔔 Notifications system
-### ☁️ Cloudinary image upload
-### 🧠 AI-based blog suggestions
+- 📌 Bookmark blogs
+- 📊 Blog analytics (views, trends)
+- 🔔 Notifications system
+- ☁️ Cloudinary image upload
+- 🧠 AI-based blog suggestions
 
 
 ---
@@ -214,6 +233,7 @@ PUT /api/users/profile
 ## 📝 License
 
 This project is licensed under the [MIT License](./LICENSE) © 2026 
+
 [**Sheik Arshad Ibrahim**](https://github.com/arshadibrahim882) 
 
 
@@ -224,6 +244,7 @@ This project is licensed under the [MIT License](./LICENSE) © 2026
 **Sheik Arshad Ibrahim**
 
 GitHub: https://github.com/arshadibrahim882
+
 LinkedIn: https://www.linkedin.com/in/sheik-arshad-ibrahim/
 
 ---
